@@ -2,7 +2,7 @@ from datetime import date, datetime
 import datetime
 import urllib.request
 
-# Get date today for the filename
+# Get date today and time for the filename
 date = datetime.datetime.utcnow().strftime("%Y-%m-%d_%H-%M")
 
 # Set start date
